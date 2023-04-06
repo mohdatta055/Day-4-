@@ -1,0 +1,17 @@
+public static void main(String[] args) {
+          // to enter any number
+        Scanner A = new Scanner(System.in);
+        System.out.println("Enter numbers :");
+        // Array
+        int [] numbers = {1,2,3,4};
+        // check the number from the array
+        int check = A.nextInt();
+        for(int n: numbers){
+            if (n == check) {
+                System.out.printf(n+" The number is here");
+                // if  i print number 5 is will stop   any number after 4 is will stop
+                break;
+            }
+        }
+    }
+    }
