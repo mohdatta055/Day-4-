@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+
+        /// make arrays from (50 - 100)
+        int[] numbers = {50, 60, 40, 10, 38, 65, 87, 56, 90, 100, 66, 80, 88, 40, 98};
+        for (int n : numbers) {
+            // print big number start from (50 - 100)
+            if (n >= 50)  {
+                System.out.println(n);
+
+            }
+
+
+        }
+    }
+}
