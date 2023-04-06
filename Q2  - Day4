@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+
+        // make arrays  from names
+        String[] name = {" shaza", "mohamed", "Asmaa", "Anfal", "Yousra", "Amin", "Radwa", "Yasmeen"};
+         // print the name start only with A
+        for (String n : name) {
+            if (n.startsWith("A"))
+                System.out.println(n);
+
+
+        }
+    }
+}
+
+
+
+
